@@ -1,0 +1,110 @@
+﻿"Phrases"
+{
+    "ChatVoteLike"
+    {
+        "en"        "You have successfully voted and you put [+]"
+        "ru"        "Вы успешно проголосовали и поставили [+]"
+    }
+
+    "ChatVoteDis"
+    {
+        "en"        "You have successfully voted and you put [-]"
+        "ru"        "Вы успешно проголосовали и поставили [-]"
+    }
+
+    "MainMenu_Title"
+    {
+        "en"        "List of online admins:\n \n"
+        "ru"        "Список онлайн администраторов:\n \n"
+    }
+
+    "ChatListIsEmpty"
+    {
+        "en"        "Admins is not in game."
+        "ru"        "Никого из администраторов нету."
+    }
+
+    "ChatPlayerIsNotInGame"
+    {
+        "en"        "The user has disconnected."
+        "ru"        "Игрок покинул сервер."
+    }
+
+    "DescriptionMenu"
+    {
+        "#format"    "{1:N},{2:s}"
+        "en"         "Admin - {1}\nExpires: {2}"
+        "ru"         "Администратор - {1}\nИстекает: {2}"
+    }
+
+    "DescriptionMenu_Imm"
+    {
+        "#format"    "{1:N},{2:i},{3:s}"
+        "en"         "Admin - {1}\nImmunity: {2}\nExpires: {3}"
+        "ru"         "Администратор - {1}\nИммунитет: {2}\nИстекает: {3}"
+    }
+
+    "DescriptionMenu_Group"
+    {
+        "#format"    "{1:s},{2:i}"
+        "en"         "Group: {1} | ID: {2}"
+        "ru"         "Группа: {1} | ID: {2}"
+    }
+
+    "DescriptionMenu_Reputation"
+    {
+        "en"         "Reputation of admin"
+        "ru"         "Репутация Администратора"
+    }
+
+    "Reputation_Menu"
+    {
+        "#format"    "{1:N},{2:i},{3:i}"
+        "en"         "{1} - [+{2} / -{3}]"
+        "ru"         "{1} - [+{2} / -{3}]"
+    }
+	
+	"DescriptionMenu_SendMessage"
+	{
+		"en"		 "Send message"
+		"ru"		 "Отправить сообщение"
+	}
+	
+	"ChatCancel"
+    {
+        "en"         "{RED}The process has successfully canceled!"
+        "ru"         "{RED}Операция была успешно отменена!"
+    }
+	
+	"ChatLongText"
+    {
+        "en"         "{RED}Your text is too long!"
+        "ru"         "{RED}Упс... Слишком длинный контакт."
+    }
+	
+	"ChatSendMessage"
+    {
+		"#format"    "{1:N},{2:s}"
+        "en"         "{RED}You have got a message from {1}\nMessage: {2}"
+        "ru"         "{RED}ВАМ ОТПРАВЛЕНО СООБЩЕНИЕ ОТ {1}\nСодержимое: {2}"
+    }
+	
+	"ChatGotMessage"
+    {
+		"#format"    "{1:N}"
+        "en"         "{RED}Admin {1} has successfully received message!"
+        "ru"         "{RED}Администратор {1}, успешно принял ваше сообщение!"
+    }
+	
+	"ContactHasChanged"
+    {
+        "en"         "{RED}The contact has successfully changed!"
+        "ru"         "{RED}Контакт был успешно изменен!"
+    }
+	
+	"ContactChangeFailure"
+	{
+		"en"		 "{RED}You have a problem with your DB, contact hasn't changed!"
+		"ru"		 "{RED}Возникла проблема с бд, контакт не изменен!"
+	}
+}
